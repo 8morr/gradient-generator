@@ -56,7 +56,8 @@ button {
   background-size: 100% 200%;
   padding: 1.1em 1.5em;
   border-radius: 2em;
-  border: none;
+  border: 1px solid black;
+  cursor: pointer;
 
   box-shadow: 0 -0.5em 0.5em transparent, 0 0.5em 0.5em transparent,
     0 0.25em 0.3em -0.2em hsla(var(--hue), var(--sat), 50%, 0.46),
@@ -162,3 +163,8 @@ button {
   }
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 6vw;
+  }
+}
